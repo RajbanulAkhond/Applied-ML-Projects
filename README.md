@@ -45,7 +45,6 @@ These are the saved results from the submitted notebooks; they have not been rec
 | EV Chassis Material Selection | Random forest achieved **99.57%** test accuracy and **0.9744** F1; logistic regression achieved **91.42%** accuracy but **0** minority-class recall. |
 | Augmented SEM Image Analysis | K-Means with ResNet features averaged **86.19%** label-matched agreement across four conditions, compared with **45.57%** using PCA features. These are clustering evaluations on the fitted images. |
 
-The projects are coursework experiments. Their metrics describe the supplied datasets and evaluation procedures. The project READMEs explain relevant limitations, including preprocessing before cross-validation and the difference between clustering agreement and performance on unseen images.
 
 ## Getting started
 
@@ -73,5 +72,3 @@ The SEM images account for most of the repository's approximately 720 MiB of pro
 - The EV notebook references the [Mechanical Properties of Design Materials dataset](https://www.kaggle.com/datasets/purushottamnawale/materials), described there as originating from the Autodesk Material Library. The local CSV includes the `Use` label analyzed in this project.
 - The SEM notebook references this [SEM dataset record on B2SHARE](https://b2share.eudat.eu/records/19cc2afd23e34b92b36a1dfd0113a89f). This repository contains three selected categories and their augmented variants.
 - The Material Lifespan notebook uses the included `Material_Lifespan_Dataset.csv`; it does not specify an original public source.
-
-The Material Lifespan and SEM notebooks acknowledge GitHub Copilot assistance during coding. Dataset source links are preserved from the notebooks; no new license is assigned to the datasets here.
